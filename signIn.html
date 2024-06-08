@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     
+    </head>
+    <style>
+        body {
+            display: flex;
+            justify-content:space-around;
+            font-family: "Poppins",monospace;
+            background-color:white;
+        }
+        .img-size {
+            width: 400px;
+            height: 700px;
+        }
+        .small-size {
+            width: 25px;
+            margin-bottom: -6px;
+        }
+        .photo-size {
+            width: 125px;
+            margin-bottom: 90px;
+            margin-left: 10px;
+        }
+        .format {
+            width: 125px;
+            margin-bottom: 50px;
+        }
+        .for-h1 {
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            margin-top: 1px;
+            text-align: center;
+          }
+        .for-input {
+            width: 280px;
+            padding: 10px;
+            margin:  3px;
+            background-color: #e9ecefcf; 
+            font-family: 'Poppins',monospace;     
+        } 
+        .for-login {
+            width: 95%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color: #00a6ff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            margin: 5%;
+            font-family: 'Poppins',monospace;
+        }
+        .padding {
+            padding: 10px;
+            border: none;
+            text-align: center;
+            font-weight: bold;
+        }
+        .padding a {
+            text-decoration: none;
+            color: darkblue;
+        }
+        .end-padd {
+            
+            border: none;
+            text-align: center;
+        }
+        .padd-for-end {
+            padding: 2px;
+            
+            border: none;
+            text-align: center;
+        }
+        .forgot {
+            padding: 8px;
+            text-align: center;
+            border: none;
+            font-weight:300;
+            font-size: 15px;
+        }
+        .forgot a {
+            text-decoration: none;
+            color: #6600ff;
+        }
+        .container {
+            border-style:ridge;
+            width: 300px;
+            height: 320px;
+            padding: 50px;
+        }  
+        .for-dont{
+            padding: 5px;
+            border: groove;
+            text-align: center;
+            font-family: "Poppins", monospace 
+        }
+        .for-dont a {
+            text-decoration: none;
+            color: #009dff;
+            font-weight: bold;
+        }
+        .or-container {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+        }
+        .line {
+            border-top: 1px solid #000;
+            flex-grow: 1;
+        }       
+        .or {
+            margin: 0 8px;
+            text-align: center;
+            
+        }
+        @media (max-width: 480px) {
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .for-h1 {
+                font-size: 24px;
+            }
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+    <body>
+        <header>
+            <title>
+                Instagram signIn/Up
+            </title>
+        </header>
+        <img src="c:\Users\Hemasree\Downloads\Screenshot 2024-06-06 115228.png" class="img-size">
+        <main>
+        <div class="container">
+            <h1 class="for-h1">Instagram</h1>
+            <div>
+                <form action="LogIn.com" target="_blank">
+                    <input type="text" placeholder="Phone number,username or email" required class="for-input">
+                    <br>
+                    <input type="password" placeholder="Password" required class="for-input">
+                    <br>
+                    <button type="submit" class="for-login">Log in</button>
+                </form>
+            </div>
+            <div class="or-container">
+                <div class="line"></div>
+                <div class="or">OR</div>
+                <div class="line"></div>
+            </div>
+            <div class="padding">
+                <a href="facebook.com" target="_blank"><img src="https://i.pinimg.com/originals/d8/ff/30/d8ff3064a3067ac45a70f762f4977d90.png" class="small-size"> Log in with Facebook</a>
+            </div>
+            <div class="forgot"> 
+                <a href="forgot.com" target="_blank"> Forgot password?</a>
+            </div>
+        </div>
+            <br>
+            <div class="for-dont">
+                <p>Don't have an account? <a href="account.com" target="_blank"> Sign up</a></p>
+            </div>
+            <div>
+                <div class="end-padd">
+                <p>Get the app.</p>
+                </div>
+                <div class="padd-for-end">
+                <a href="#"><img src="https://freeiconshop.com/wp-content/uploads/edd/google-play-badge.png" alt="Get it on play store" class="format">
+                </a>
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Get_it_from_Microsoft_Badge.svg/1280px-Get_it_from_Microsoft_Badge.svg.png" alt="get it from microsoft" class="photo-size">
+                </a>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
